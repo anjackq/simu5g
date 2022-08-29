@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:extclientserver,org.eclipse.launchbar.core.descriptorType.default\:extclientserver (1),org.eclipse.launchbar.core.descriptorType.default\:tutorial,org.eclipse.launchbar.core.descriptorType.default\:veins,org.eclipse.launchbar.core.descriptorType.default\:cars
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:extclientserver/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:extclientserver/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

@@ -1,0 +1,13 @@
+13:24:26 **** Incremental Build of configuration gcc-release for project Simu5G-1.2.1 ****
+make MODE=release all 
+make[1]: Entering directory '/home/anjie/Desktop/omnetpp_workspace/Simu5G-1.2.1/src'
+Creating shared library: ../out/clang-release/src/libsimu5g.so
+ld.lld: error: unable to find library -lveins_inet
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: Leaving directory '/home/anjie/Desktop/omnetpp_workspace/Simu5G-1.2.1/src'
+make[1]: *** [Makefile:409: ../out/clang-release/src/libsimu5g.so] Error 1
+make: *** [Makefile:2: all] Error 2
+"make MODE=release all" terminated with exit code 2. Build might be incomplete.
+
+13:24:27 Build Failed. 2 errors, 0 warnings. (took 937ms)
+

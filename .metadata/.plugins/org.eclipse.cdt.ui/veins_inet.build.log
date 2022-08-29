@@ -1,0 +1,51 @@
+16:08:07 **** Incremental Build of configuration gcc-release for project veins_inet ****
+make MODE=release all 
+make[1]: Entering directory '/home/anjie/Desktop/omnetpp_workspace/veins-5.2/subprojects/veins_inet/src'
+veins_inet/VeinsInetApplicationBase.cc
+In file included from veins_inet/VeinsInetApplicationBase.cc:28:
+In file included from ./veins_inet/VeinsInetApplicationBase.h:27:
+./veins_inet/veins_inet.h:44:9: warning: WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported. [-W#pragma-messages]
+#pragma message("WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported.")
+        ^
+1 warning generated.
+veins_inet/VeinsInetManager.cc
+In file included from veins_inet/VeinsInetManager.cc:23:
+In file included from ./veins_inet/VeinsInetManager.h:25:
+./veins_inet/veins_inet.h:44:9: warning: WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported. [-W#pragma-messages]
+#pragma message("WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported.")
+        ^
+1 warning generated.
+veins_inet/VeinsInetManagerBase.cc
+In file included from veins_inet/VeinsInetManagerBase.cc:23:
+In file included from ./veins_inet/VeinsInetManagerBase.h:25:
+./veins_inet/veins_inet.h:44:9: warning: WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported. [-W#pragma-messages]
+#pragma message("WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported.")
+        ^
+1 warning generated.
+veins_inet/VeinsInetManagerForker.cc
+In file included from veins_inet/VeinsInetManagerForker.cc:23:
+In file included from ./veins_inet/VeinsInetManagerForker.h:25:
+./veins_inet/veins_inet.h:44:9: warning: WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported. [-W#pragma-messages]
+#pragma message("WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported.")
+        ^
+1 warning generated.
+veins_inet/VeinsInetMobility.cc
+In file included from veins_inet/VeinsInetMobility.cc:28:
+In file included from ./veins_inet/VeinsInetMobility.h:36:
+./veins_inet/veins_inet.h:44:9: warning: WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported. [-W#pragma-messages]
+#pragma message("WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported.")
+        ^
+1 warning generated.
+veins_inet/VeinsInetSampleApplication.cc
+In file included from veins_inet/VeinsInetSampleApplication.cc:23:
+In file included from ./veins_inet/VeinsInetSampleApplication.h:25:
+./veins_inet/veins_inet.h:44:9: warning: WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported. [-W#pragma-messages]
+#pragma message("WARNING: Unsupported INET version. Only INET version 4.2 and 4.3 are supported.")
+        ^
+1 warning generated.
+veins_inet/VeinsInetSampleMessage_m.cc
+Creating shared library: ../out/clang-release/src/libveins_inet.so
+make[1]: Leaving directory '/home/anjie/Desktop/omnetpp_workspace/veins-5.2/subprojects/veins_inet/src'
+
+16:08:17 Build Finished. 0 errors, 6 warnings. (took 10s.503ms)
+
