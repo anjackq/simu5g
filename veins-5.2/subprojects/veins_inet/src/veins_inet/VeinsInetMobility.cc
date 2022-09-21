@@ -37,6 +37,14 @@ using namespace inet::units::values;
 
 Register_Class(VeinsInetMobility);
 
+/* statistic signals */
+const simsignal_t VeinsInetMobility::sigLastPosX = registerSignal("sigLastPosX");
+const simsignal_t VeinsInetMobility::sigLastPosY = registerSignal("sigLastPosY");
+const simsignal_t VeinsInetMobility::sigLastVelocity = registerSignal("sigLastVelocity");
+const simsignal_t VeinsInetMobility::sigLastOrientation = registerSignal("sigLastOrientation");
+
+
+
 VeinsInetMobility::VeinsInetMobility()
 {
 }
@@ -81,6 +89,12 @@ void VeinsInetMobility::nextPosition(const inet::Coord& position, std::string ro
     }
 
     emitMobilityStateChangedSignal();
+
+    // record statistics
+    emit(sigLastPosX, position.x);
+    emit(sigLastPosY, position.y);
+    emit(sigLastVelocity, speed);
+    emit(sigLastOrientation, angle);
 }
 
 #if INET_VERSION >= 0x0403

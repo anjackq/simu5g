@@ -42,6 +42,12 @@ namespace veins {
 
 class VEINS_INET_API VeinsInetMobility : public inet::MobilityBase {
 public:
+    /* statistic signals */
+    static const simsignal_t sigLastPosX;
+    static const simsignal_t sigLastPosY;
+    static const simsignal_t sigLastVelocity;
+    static const simsignal_t sigLastOrientation;
+
     VeinsInetMobility();
 
     virtual ~VeinsInetMobility();

@@ -36,4 +36,15 @@ simple VeinsInetMobility extends MobilityBase
         @display("i=block/cogwheel");
         @signal[mobilityStateChanged](type=inet::MobilityBase);
         bool initFromDisplayString = default(true); // do not change this to false
+        
+        // signals for statistics
+        @signal[sigLastPosX](type=double);
+        @signal[sigLastPosY](type=double);
+        @signal[sigLastVelocity](type=double);
+        @signal[sigLastOrientation](type=double);
+        // statistics for mobility parameters in TraCI
+        @statistic[LastPosX](source="sigLastPosX"; record=mean,max,vector?,histogram?; interpolationmode=none);
+        @statistic[LastPosY](source="sigLastPosY"; record=mean,max,vector?,histogram?; interpolationmode=none);
+        @statistic[LastVelocity](source="sigLastVelocity"; record=mean,max,vector?,histogram?; interpolationmode=none);
+        @statistic[LastOrientation](source="sigLastOrientation"; record=mean,max,vector?,histogram?; interpolationmode=none);
 }
